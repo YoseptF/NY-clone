@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+header {
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    height: 42px;
+    padding: 4px 15px 2px;
+}
+.title {
+    flex-basis: 195px;
+}
+.left-header {
+    display: flex;
+
+}
+.nav-left .navigation, .nav-left
