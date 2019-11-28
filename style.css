@@ -70,6 +70,9 @@ header {
 .titleText{
     max-width: 383.7777px;
     font-size: 2.2rem;
+    font-family: 'IM Fell Double Pica', serif;
+    font-style: italic;
+
 }
 
 .featuredImage{
@@ -93,7 +96,7 @@ figcaption > span{
 article {
     margin-top: 25px;
 }
-article p:nth-child(1),article p:nth-child(1)>a {
+article > p:nth-child(1),article > p:nth-child(1)>a {
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -116,4 +119,11 @@ article p:nth-child(1),article p:nth-child(1)>a {
     header {
         left: 9%;
     }
+}
+
+.articleText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
 }
