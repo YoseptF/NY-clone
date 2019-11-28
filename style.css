@@ -6,12 +6,17 @@
     -moz-box-sizing: border-box;
 }
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     max-width: 1600px;
     justify-content: space-between;
-    height: 36px;
-    padding: 6px 15px 2px;
+    height: 55px;
+    padding: 16px 15px 17px;
     align-items: center;
+    top: 0;
+    left: 9%;
+    border-bottom: 1px solid #e2e2e2;
 }
 .title {
     flex-basis: 195px;
@@ -44,4 +49,38 @@ header {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 0.8rem;
+}
+
+.main-content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.mainTitle{
+    width: 600px;
+    max-width: 600px;
+    margin: 105px auto 0;
+    text-align: left;
+}
+
+.titleText{
+    max-width: 383.7777px;
+    font-size: 2.2rem;
+}
+
+.featuredImage{
+    margin-top: 18px;
+    width: 100%;
+}
+
+figcaption{
+    max-width: 849px;
+    margin-top: 7px;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666;
+}
+figcaption > span{
+    color: #888;
+    font-size: 0.85rem;
 }
