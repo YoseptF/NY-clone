@@ -82,6 +82,7 @@ header {
 .main-content{
     max-width: 1200px;
     margin: auto;
+    
 }
 
 .mainTitle, .articleText {
@@ -272,19 +273,28 @@ article > p:nth-child(1),article > p:nth-child(1)>a {
 
 .related{
     max-width: 1200px;
-    margin: auto;
+    margin: 30px auto;
+    
 }
-
+.related aside {
+    max-width: 312px;
+    float: right;
+}
 .recommended{
     float: left;
+    max-width: 852px;
 }
 
 .moreArticles{
     max-width: 272px;
     float: left;
-    margin: 0 0.5rem;
+    margin-right: 0.5rem;
+    height: 283px;
 }
 
 .moreArticles img{
     width: 100%;
+}
+.editors {
+    clear: both;
 }
