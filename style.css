@@ -94,8 +94,9 @@ header {
 .main-content {
     max-width: 1200px;
     margin: auto;
-
+    
 }
+
 
 .main-content aside {
     float: right;
@@ -146,7 +147,10 @@ figcaption>span {
 
 
 }
-
+.css-sqdgy8 {
+    max-width: 945px;
+    margin-left: calc((100% - 957px) / 2);
+}
 .author,
 .author>a {
     font-weight: bolder;
@@ -321,8 +325,9 @@ figcaption>span {
 
 .related {
     max-width: 1200px;
-    margin: 100px auto;
-
+    padding-top: 100px;
+    margin: auto;
+    clear: both;
 }
 
 .related aside {
