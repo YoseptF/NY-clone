@@ -417,8 +417,45 @@ figcaption>span {
     border-top: 1px solid #000;
     padding-top: 17px
 }
-.recommended > h4 , .editors>h4{
+.recommended > h4 , .editors>h4, .asideTitle h2{
     padding: 10px 0 15px 0;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.asideLinks h3{
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.asideTitle h2 {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+footer{
+    clear: both;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footerTitle {
+    float: left;
+}
+
+.footerHomeLink {
+    float: right;
+    margin-top: 11px;
+    
+}
+
+.footerLeft{
+    float: left;
+}
+
+.footerLeft > div {
+    float: left;
 }
