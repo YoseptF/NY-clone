@@ -325,7 +325,7 @@ figcaption>span {
 
 .related {
     max-width: 1200px;
-    padding-top: 100px;
+    padding-top: 60px;
     margin: auto;
     clear: both;
 }
@@ -338,6 +338,7 @@ figcaption>span {
 .recommended {
     float: left;
     max-width: 852px;
+    
 }
 
 .moreArticles {
@@ -411,4 +412,13 @@ figcaption>span {
 .asideArticle{
     clear: both;
     padding: 15px 0;
+}
+.recommended>h4,.asideTitle,.editors>h4 {
+    border-top: 1px solid #000;
+    padding-top: 17px
+}
+.recommended > h4 , .editors>h4{
+    padding: 10px 0 15px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
