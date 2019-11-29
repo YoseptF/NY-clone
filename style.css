@@ -68,7 +68,7 @@ header {
     margin-left: 20px;
 }
 
-.right-header > button {
+.right-header > button, .commentSection button {
     padding: 9px 15px 3px;
     background: #567B95;
     border: none;
@@ -252,4 +252,39 @@ article > p:nth-child(1),article > p:nth-child(1)>a {
 }
 .articleImage img {
     max-width: 100%;
+}
+
+.commentSection > p{
+    font-size: 0.8rem;
+    line-height: 15px;
+}
+
+.callToAction button {
+    float: left;
+    width: 100%;
+    max-width: 328px;
+
+}
+
+.callToAction .social {
+    float: right;
+}
+
+.related{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.recommended{
+    float: left;
+}
+
+.moreArticles{
+    max-width: 272px;
+    float: left;
+    margin: 0 0.5rem;
+}
+
+.moreArticles img{
+    width: 100%;
 }
