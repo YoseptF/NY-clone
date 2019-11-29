@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     height: 42px;
     padding: 6px 15px 17px;
-    
+    z-index: 10;
     top: 0;
     left: 0;
     background: #fff;
@@ -66,6 +66,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     margin-left: 20px;
+    color: #000;
 }
 
 .right-header > button, .commentSection button {
@@ -84,7 +85,9 @@ header {
     margin: auto;
     
 }
-
+.main-content aside{
+    float: right;
+}
 .mainTitle, .articleText {
     width: 600px;
     max-width: 600px;
@@ -273,7 +276,7 @@ article > p:nth-child(1),article > p:nth-child(1)>a {
 
 .related{
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 100px auto;
     
 }
 .related aside {
@@ -290,10 +293,26 @@ article > p:nth-child(1),article > p:nth-child(1)>a {
     float: left;
     margin-right: 0.5rem;
     height: 283px;
+    margin-bottom: 20px;
 }
 
 .moreArticles img{
     width: 100%;
+}
+.moreArticles figcaption {
+    font-size: 10px;
+    text-align: right;
+    color: #999;
+    padding-bottom: 4px;
+}
+.moreArticles h3 {
+    font-size: 18px;
+    font-weight:100;
+    
+}
+.moreArticles span {
+    font-size: 13px;
+    color: #999;
 }
 .editors {
     clear: both;
