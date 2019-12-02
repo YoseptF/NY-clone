@@ -184,6 +184,13 @@ figcaption > span {
   width: 197.33px;
 }
 
+.footerLogin > div {
+  max-width: 75%;
+  margin: 0 auto;
+  height: 55px;
+  padding-top: 1%;
+}
+
 .main-content > aside div {
   height: 60vh;
   margin-top: 50vh;
@@ -266,6 +273,13 @@ footer h3 {
   font-size: 0.8rem;
   color: #666;
   margin-top: 10px;
+}
+
+.footerLogin p {
+  float: right;
+  left: 30px;
+  margin: auto;
+  text-align: center;
 }
 
 .middleImageWrapper p:nth-child(1) {
@@ -548,20 +562,6 @@ footer li {
   bottom: 0;
   width: 100%;
   height: 55px;
-}
-
-.footerLogin > div {
-  max-width: 75%;
-  margin: 0 auto;
-  height: 55px;
-  padding-top: 1%;
-}
-
-.footerLogin p {
-  float: right;
-  left: 30px;
-  margin: auto;
-  text-align: center;
 }
 
 .footerLogin p:nth-child(2) {
