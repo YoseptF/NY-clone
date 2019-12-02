@@ -169,6 +169,11 @@ figcaption > span {
   max-width: 600px;
 }
 
+.footerLeft > div {
+    float: left;
+    width: 197.33px;
+}
+
 .main-content > aside div {
   height: 60vh;
   margin-top: 50vh;
@@ -180,7 +185,7 @@ figcaption > span {
   vertical-align: middle;
 }
 
-.article-date>div:nth-child(2) {
+.article-date > div:nth-child(2) {
   float: right;
   vertical-align: top;
 }
@@ -459,11 +464,6 @@ footer {
 
 .footerLeft {
   float: left;
-}
-
-.footerLeft > div {
-  float: left;
-  width: 197.33px;
 }
 
 .footerContent {
