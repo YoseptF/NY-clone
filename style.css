@@ -400,6 +400,11 @@ footer h3 {
   padding-bottom: 4px;
 }
 
+.moreArticles a {
+  text-decoration: none;
+  color: #000;
+}
+
 .moreArticles h3 {
   font-size: 18px;
   font-weight: 100;
