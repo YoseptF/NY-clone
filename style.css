@@ -34,7 +34,7 @@ header {
   left: 25%;
 }
 
-.title > svg {
+.title > a > svg {
   height: 100%;
   width: 100%;
 }
@@ -465,6 +465,11 @@ footer h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: lighter;
   cursor: pointer;
+}
+
+.asideLinks a {
+  text-decoration: none;
+  color: #000;
 }
 
 .asideTitle h2 {
